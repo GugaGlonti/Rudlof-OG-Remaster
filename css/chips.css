@@ -1,0 +1,44 @@
+.chip {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 10rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  position: relative;
+
+  transition: all 100ms;
+}
+.chip:hover,
+.chip:active {
+  transform: translateY(-1rem);
+  scale: 1.1;
+}
+.chip--5 {
+  filter: grayscale(100%);
+}
+.chip--10 {
+  filter: hue-rotate(320deg);
+}
+.chip--25 {
+  filter: hue-rotate(60deg);
+}
+.chip--50 {
+  filter: hue-rotate(170deg);
+}
+.chip--100 {
+  filter: saturate(200%);
+}
+.chip-nr {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  position: absolute;
+}
+.img-chip {
+  transform: translate(-12.5%, 12.5%);
+  height: 10rem;
+  width: 10rem;
+}

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'rechtmann';
+  src: url(../fonts/RECHTMAN.TTF);
+}
+h3 {
+  font-family: 'rechtmann';
+  font-weight: 100;
+  color: #f3c620;
+  font-size: 9.6rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+.bet-results,
+.placed-bets {
+  margin: 10rem auto 0 auto;
+  width: 90%;
+  height: 60%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.bet-results {
+  margin: 0 auto;
+}
+.placed-bet {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid #016d29;
+  margin-bottom: 2rem;
+
+  transform: translate(0rem, 0);
+  transition: all 1000ms;
+}
+.placed-bet-shifted {
+  transform: translate(40rem, 0);
+}
+.exit-container,
+.bet-ammount-container {
+  text-align: center;
+  padding: 5rem;
+}
+.bet-ammount-container label {
+  font-size: 2.4rem;
+}
+.bet-ammount-container input {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+  background-color: #016d29;
+  width: 100%;
+}
+.bet-ammount-container input::placeholder {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #01431e;
+  opacity: 1;
+}
+.bet-field {
+  display: flex;
+}
+.btn-log-out {
+  margin-top: 2rem;
+  background-color: #01431e;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 4rem;
+}
+.clear-bet-ammount {
+  margin-top: 2rem;
+  background-color: #01431e;
+  font-size: 1.2rem;
+  width: 10rem;
+}

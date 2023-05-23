@@ -1,0 +1,41 @@
+.wheel-border {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40rem);
+  z-index: 10;
+  background-color: yellow;
+  border: 0.2rem solid #fff;
+  width: 370rem;
+  height: 10rem;
+  display: flex;
+  transition: all 1000ms ease-in-out;
+  position: relative;
+}
+/* YELLOW BORDER */
+.wheel-border::after {
+  position: relative;
+  transform: translate(-50%, -0.5rem);
+  left: 50%;
+  height: 9rem;
+  width: 9rem;
+  content: '';
+  border: 1rem solid #fff;
+  border: 1rem solid #f3c620;
+  /* border-radius: 2rem; */
+}
+.wheel-field {
+  position: absolute;
+  height: 10rem;
+  width: 10rem;
+  border: 0.2rem solid #fff;
+  transition: all 200ms linear;
+}
+.wheel-field p {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*CHANGE MAYBE*/
+  font-size: 6.4rem;
+}

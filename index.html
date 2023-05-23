@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudlof OG Remaster</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/asides.css" />
+    <link rel="stylesheet" href="css/rouletteBoard.css" />
+    <link rel="stylesheet" href="css/rouletteWheel.css" />
+    <link rel="stylesheet" href="css/chips.css" />
+    <link rel="stylesheet" href="css/querries.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Place Your Bet!</h1>
+      <h2>Spin!</h2>
+      <div class="roulette-wheel">
+        <div class="wheel-border">
+          <!-- FILLED WITH JS -->
+        </div>
+      </div>
+    </header>
+    <li class="game-container">
+      <aside class="aside aside--left">
+        <h3>Balance</h3>
+        <h3 class="balanceText"></h3>
+        <div class="bet-results">
+          <!-- FILLED WITH JS -->
+        </div>
+        <div class="exit-container">
+          <label for="LO">Exit</label>
+          <button id="LO"class="btn-log-out">Log Out.</button>
+        </div>
+      </aside>
+      <div class="board">
+        <div class="greens">
+          <div class="green green-top"></div>
+          <div class="green green-mid"><p>0</p></div>
+          <div class="green green-bot"></div>
+        </div>
+        <div class="fields">
+          <div class="fields-grid"></div>
+        </div>
+        <div class="column-bet">
+          <div class="column column--1"><p>2-1</p></div>
+          <div class="column column--2"><p>2-1</p></div>
+          <div class="column column--3"><p>2-1</p></div>
+        </div>
+        <div class="compounds">
+          <div class="compound twelve twelve-1"><p>1st 12</p></div>
+          <div class="compound twelve twelve-2"><p>2nd 12</p></div>
+          <div class="compound twelve twelve-3"><p>3rd 12</p></div>
+          <div class="compound compound-1to18"><p>1to18</p></div>
+          <div class="compound compound-even"><p>EVEN</p></div>
+          <div class="compound compound-red"><p>RED</p></div>
+          <div class="compound compound-black"><p>BLACK</p></div>
+          <div class="compound compound-odd"><p>ODD</p></div>
+          <div class="compound compound-19to36"><p>19to36</p></div>
+        </div>
+      </div>
+      <aside class="aside aside--right">
+        <h3>Bets</h3>
+        <div class="placed-bets">
+          <!-- FILLED WITH JS -->
+        </div>
+        <form class="bet-ammount-container" action="#">
+            <label for="bet-ammount">Betting Ammount</label>
+            <div class="bet-field">
+              <input id="bet-ammount" type="text" placeholder="Enter Ammount" required>
+              <button class="clear-bet-ammount">Clear</button>
+            </div>
+        </form>
+      </aside>
+      <ul class="chips">
+        <li class="chip chip--5">
+          <p class="chip-nr unselectable">5</p>
+          <img class="img-chip unselectable" src="img/chip.png" alt="" width="100" height="100">
+        </li>
+        <li class="chip chip--10">
+          <p class="chip-nr unselectable">10</p>
+          <img class="img-chip unselectable" src="img/chip.png" alt="" width="100" height="100">
+        </li>
+        <li class="chip chip--25">
+          <p class="chip-nr unselectable">25</p>
+          <img class="img-chip unselectable" src="img/chip.png" alt="" width="100" height="100">
+        </li>
+        <li class="chip chip--50">
+          <p class="chip-nr unselectable">50</p>
+          <img class="img-chip unselectable" src="img/chip.png" alt="" width="100" height="100">
+        </li>
+        <li class="chip chip--100">
+          <p class="chip-nr unselectable">100</p>
+          <img class="img-chip unselectable" src="img/chip.png" alt="" width="100" height="100">
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+.greens {
+  display: grid;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.green-top {
+  background-color: #01431e;
+  border-top: 0.2rem solid #fff;
+  border-left: 0.2rem solid #fff;
+  border-top-left-radius: 50%;
+}
+.green-mid {
+  background-color: #01431e;
+  border-left: 0.2rem solid #fff;
+  position: relative;
+}
+.green-mid p {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6.4rem;
+}
+.green-bot {
+  background-color: #01431e;
+  border-bottom: 0.2rem solid #fff;
+  border-left: 0.2rem solid #fff;
+  border-bottom-left-radius: 50%;
+}
+.fields {
+  background-color: #01431e;
+}
+.fields-grid {
+  transform: scaleY(-1);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.field-square {
+  transform: scaleY(-1);
+  margin: auto;
+  border: 0.2rem solid #fff;
+  width: 100%;
+  height: 100%;
+}
+.field {
+  margin: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 47%;
+  color: #fff;
+  position: relative;
+}
+.field p {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.column-bet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.column {
+  background-color: #01431e;
+  flex: 1 1;
+  border: 0.2rem solid #fff;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.column--1 {
+  border-top-right-radius: 50%;
+}
+.column--3 {
+  border-bottom-right-radius: 50%;
+}
+.column p {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.compounds {
+  background-color: #016d29;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+.compound {
+  border: 0.2rem solid #fff;
+  position: relative;
+}
+.compound.red {
+  background-color: #e0080b;
+}
+.compound.black {
+  background-color: #000000;
+}
+.compound p {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.twelve {
+  border: 0.2rem solid #fff;
+  grid-column: span 2;
+}
